@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SwiftCart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="bg-gray-100 font-sans">
+
+
+<div class="bg-black text-white text-sm py-2">
+  <div class="max-w-[1200px] mx-auto px-5 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+      <i class="fa-solid fa-table-cells"></i>
+      <button class="bg-gray-700 px-3 py-1 rounded text-xs">AI</button>
+    </div>
+    <p>E-Commerce Application Design</p>
+<div class="flex items-center gap-2">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      <button class="bg-indigo-600 px-3 py-1 rounded text-xs">Share</button>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="bg-white shadow">
+  <div class="max-w-[1200px] mx-auto px-5 py-5 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-indigo-600">SwiftCart</h1>
+<ul class="flex gap-10">
+      <li class="text-indigo-600 font-medium cursor-pointer">Home</li>
+      <li class="cursor-pointer">Products</li>
+      <li class="cursor-pointer">About</li>
+      <li class="cursor-pointer">Contact</li>
+    </ul>
+<div class="relative">
+      <i class="fa-solid fa-cart-shopping text-xl"></i>
+      <span id="cart-count"
+        class="absolute -top-2 -right-3 bg-indigo-600 text-white text-xs px-2 py-0.5 rounded-full">
+        0
+      </span>
+    </div>
+</div>
+</nav>
+
+
+<!--Banner-->
+<section class="relative h-[80vh] bg-cover bg-center flex items-center"
+  style="background-image:url('banner-image.png')">
+<div class="absolute inset-0 bg-black bg-opacity-60"></div>
+ <div class="relative z-10 max-w-[1200px] mx-auto px-5 text-white">
+    <h2 class="text-5xl font-bold">Best Collection For You</h2>
+    <p class="mt-6 max-w-xl">
+      Discover the latest trends in fashion, electronics, and more.
+      Shop with confidence and style at SwiftCart.
+    </p>
+    <button
+      class="mt-8 bg-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-700">
+      Shop Now
+    </button>
+  </div>
+</section>
